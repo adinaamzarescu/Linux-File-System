@@ -12,6 +12,7 @@ It has 10 commands:
   in which case the touch() function will print the "File already exists" message.
   After the file is created, it will be added to the end of the list of files by
   changing the **_next_** parameter of the previous file.
+  * Extra function : 
 * **mkdir**
 
   This creates a new directory in the current directory.
