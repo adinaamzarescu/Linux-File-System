@@ -14,6 +14,7 @@ It has 10 commands:
   changing the **_next_** parameter of the previous file.
   
   * Extra function : make_file()
+ 
     You can find it in _init.c_.
     In order to make a new file, the program will allocate memory for it
     and then it will initialize its parameters.
@@ -29,6 +30,7 @@ It has 10 commands:
   changing the **_next_** parameter of the previous directory.
   
   * Extra function : make_file()
+  
     You can find it in _init.c_.
     In order to make a new file, the program will allocate memory for it
     and then it will initialize its parameters.
