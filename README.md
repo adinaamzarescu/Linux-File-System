@@ -3,7 +3,7 @@
 This is a project that simulates the file system.
 It has 10 commands:
 ```
-* **touch** 
+* touch 
 ```
   This creates a new file in the current directory.
   You can find this function in _create.c_.
@@ -19,7 +19,7 @@ It has 10 commands:
     In order to make a new file, the program will allocate memory for it
     and then it will initialize its parameters.
 ```   
-* **mkdir**
+* mkdir
 ```
   This creates a new directory in the current directory.
   You can find this function in _create.c_.
@@ -35,7 +35,7 @@ It has 10 commands:
     In order to make a new directory, the program will allocate memory for it
     and then it will initialize its parameters.
 ```  
-* **ls**
+* ls
 ```
   This function will list all the directories and then all the files in the
   current directory.
@@ -45,7 +45,7 @@ It has 10 commands:
   
     Those 2 functions are used to list them separately.
 ```
-* **rm**
+* rm
 ```
      This removes a file. If no file can be found, it will print
      the "Could not find the file" message.
@@ -53,7 +53,7 @@ It has 10 commands:
      After removing the file from the list, it will free
      the memory that has been allocated for it.
 ```
-* **rmdir**
+* rmdir
 ```
    This removes a directory. If no directory can be found, it will print
    the "Could not find the directory" message.
@@ -69,7 +69,7 @@ It has 10 commands:
         and the files, the function free_directory will recursively
         delete all the directories and files.
 ```
-* **cd**
+* cd
 ```
 
    This changes the current directory in the one with the given name from
@@ -80,7 +80,7 @@ It has 10 commands:
    of the target parameter.
 
 ```
-* **tree**
+* tree
 ```
    This function will show the content of the current directory in an
    arborescent form. Firstly it will show the directories and after that
@@ -91,7 +91,7 @@ It has 10 commands:
    consists of 4 spaces.
    
 ```
-* **pwd**
+* pwd
 ```
    This function shows the path of the current directory, staring with home.
    After the path is printed, the program will free the memory allocated
