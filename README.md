@@ -141,3 +141,7 @@ ________________________________________________________________________________
   After the memory is free, since the loop in main is infinite, this will
   be where the **break** command will be.
   ___________________________________________________________________________________________
+  
+## **Important mentions**
+  
+  Since I decided
