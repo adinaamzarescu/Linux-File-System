@@ -3,7 +3,7 @@
 This is a project that simulates the file system.
 
 It has 10 commands:
-___________________________________________________________________________________________
+
 ```
 * touch 
 ```
@@ -19,7 +19,8 @@ ________________________________________________________________________________
   
     You can find it in _init.c_.
     In order to make a new file, the program will allocate memory for it
-    and then it will initialize its parameters.
+    and then it will initialize its parameters.\
+___________________________________________________________________________________________
 ```   
 * mkdir
 ```
@@ -36,6 +37,7 @@ ________________________________________________________________________________
     You can find it in _init.c_.
     In order to make a new directory, the program will allocate memory for it
     and then it will initialize its parameters.
+___________________________________________________________________________________________
 ```  
 * ls
 ```
@@ -46,6 +48,7 @@ ________________________________________________________________________________
   * Extra functions: ls_file()  ls_dir()
   
     Those 2 functions are used to list them separately.
+___________________________________________________________________________________________
 ```
 * rm
 ```
@@ -54,6 +57,7 @@ ________________________________________________________________________________
    You can find this function in _remove.c_.
    After removing the file from the list, it will free
    the memory that has been allocated for it.
+___________________________________________________________________________________________
 ```
 * rmdir
 ```
@@ -70,6 +74,7 @@ ________________________________________________________________________________
         as well, so in order to free all the memory for the directories
         and the files, the function free_directory will recursively
         delete all the directories and files.
+___________________________________________________________________________________________
 ```
 * cd
 ```
@@ -80,7 +85,7 @@ ________________________________________________________________________________
    You can find this function in _paths.c_.
    Since it will be changes, the function will be called with the adress
    of the target parameter.
-
+___________________________________________________________________________________________
 ```
 * tree
 ```
@@ -91,7 +96,7 @@ ________________________________________________________________________________
    This is a recursive function so at first level will be 0. Then level
    will be incremented by 1 for every directory found inside. The spacing
    consists of 4 spaces.
-   
+___________________________________________________________________________________________
 ```
 * pwd
 ```
@@ -105,9 +110,11 @@ ________________________________________________________________________________
        string from the parent to teh current directory by concatenating
        the names, followed by "/". Every path will start with "/home" because
        this is the first directory of the system.
+___________________________________________________________________________________________
 ```
 * mv
 ```
+___________________________________________________________________________________________
 ```
 * stop
 ```
@@ -117,4 +124,4 @@ ________________________________________________________________________________
   Then it will free the memory of all the directories and files in the system.
   After the memory is free, since the loop in main is infinite, this will
   be where the **break** command will be.
-  
+  ___________________________________________________________________________________________
