@@ -7,7 +7,7 @@ It has 10 commands:
 
   This creates a new file in the current directory.
   You can find this function in _create.c_.
-  Before creating a file, the function check_existance()
+  Before creating a file, the function check_existance( )
   will check if there already is a file/directory with the same name,
   in which case the touch() function will print the "File already exists" message.
   After the file is created, it will be added to the end of the list of files by
@@ -61,7 +61,7 @@ It has 10 commands:
      After removing the directory from the list, it will free
      the memory that has been allocated for it.
      
-     * Extra functions : free_directory()  free_file()
+     * Extra functions : free_directory( )  free_file( )
      
           You can find this functions in _free_mem.c_.
           The rmdir command removes the content of the directory
