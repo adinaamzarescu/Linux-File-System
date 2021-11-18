@@ -8,7 +8,8 @@ It has 10 commands:
   This creates a new file in the current directory.
   You can find this function in _create.c_.
   Before creating a file, the function check_existance()
-  will check if there already is a file/directory with the same name
+  will check if there already is a file/directory with the same name,
+  in which case the touch() function will print the File already exists message
 * **mkdir**
 * **ls**
 * **rm**
