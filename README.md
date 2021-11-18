@@ -1,7 +1,9 @@
 # Linux File System
-### Copyright 2021 Adina-Maria Amzarescu 321CA
+#### Copyright 2021 Adina-Maria Amzarescu 321CA
 This is a project that simulates the file system.
+
 It has 10 commands:
+___________________________________________________________________________________________
 ```
 * touch 
 ```
@@ -47,11 +49,11 @@ It has 10 commands:
 ```
 * rm
 ```
-     This removes a file. If no file can be found, it will print
-     the "Could not find the file" message.
-     You can find this function in _remove.c_.
-     After removing the file from the list, it will free
-     the memory that has been allocated for it.
+   This removes a file. If no file can be found, it will print
+   the "Could not find the file" message.
+   You can find this function in _remove.c_.
+   After removing the file from the list, it will free
+   the memory that has been allocated for it.
 ```
 * rmdir
 ```
@@ -103,5 +105,16 @@ It has 10 commands:
        string from the parent to teh current directory by concatenating
        the names, followed by "/". Every path will start with "/home" because
        this is the first directory of the system.
-* **mv**
-* **stop**
+```
+* mv
+```
+```
+* stop
+```
+  This function stops the program.
+  You can find it in _free_mem.c_.
+  In main it will be called with the first directory, home.
+  Then it will free the memory of all the directories and files in the system.
+  After the memory is free, since the loop in main is infinite, this will
+  be where the **break** command will be.
+  
