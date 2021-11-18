@@ -32,10 +32,19 @@ It has 10 commands:
   * Extra function : make_file()
   
     You can find it in _init.c_.
-    In order to make a new file, the program will allocate memory for it
+    In order to make a new directory, the program will allocate memory for it
     and then it will initialize its parameters.
     
 * **ls**
+
+  This function will list all the directories and then all the files in the
+  current directory.
+  You can find this function in _list.c_.
+  
+  * Extra functions: ls_file() ls_dir()
+  
+  Those 2 functions are used to list them separately.
+  
 * **rm**
 * **rmdir**
 * **cd**
