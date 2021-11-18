@@ -142,6 +142,9 @@ ________________________________________________________________________________
   be where the **break** command will be.
   ___________________________________________________________________________________________
   
-## **Important mentions**
+## Important mentions
   
-  Since I decided
+  * Since I decided to create separate .c file for the functions, i also changed the Makefile.
+  * I also added a header file
+  * I usually don't use **goto** but I thought i could integrate them in the program because
+    they were learned in the second laboratory.
