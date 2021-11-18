@@ -114,6 +114,21 @@ ________________________________________________________________________________
 ```
 * mv
 ```
+  This function changes the name of the "oldname" file/directory into "newname".
+  You can find it in _move.c_.
+  This is where the returns for the **_check_existance()_** come into use.
+    * dir will be used to iterate through all the directories, changed_dir will be the one
+    whose name will be changed, prev_dir will be the previous directory(in order to link the
+    directories from the list). Same goes for file, changed file and prev_file.
+    * checker_new will be used to check if there already is a file/directory with the same
+    name already, in which case it will print ("File/Director already exists").
+    * checker_old will see if the function will rename a file(returns 1) or a directory
+    (returns 2).
+    
+  First, it will link the **next** of the previous file/directory to the one that succeded
+  the changed one. Then it will add the changed one at the end of the list. In order to
+  rename it, the memory for its name will be reallocated.
+  
 ___________________________________________________________________________________________
 ```
 * stop
