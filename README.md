@@ -63,11 +63,11 @@ It has 10 commands:
      
      * Extra functions : free_directory()  free_file()
      
-     You can find this functions in _free_mem.c_.
-     The rmdir command removes the content of the directory
-     as well, so in order to free all the memory for the directories
-     and the files, the function free_directory will recursively
-     delete all the directories and files.
+          You can find this functions in _free_mem.c_.
+          The rmdir command removes the content of the directory
+          as well, so in order to free all the memory for the directories
+          and the files, the function free_directory will recursively
+          delete all the directories and files.
 * **cd**
 * **tree**
 * **pwd**
