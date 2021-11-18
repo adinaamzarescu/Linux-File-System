@@ -9,8 +9,18 @@ It has 10 commands:
   You can find this function in _create.c_.
   Before creating a file, the function check_existance()
   will check if there already is a file/directory with the same name,
-  in which case the touch() function will print the File already exists message
+  in which case the touch() function will print the "File already exists" message.
+  After the file is created, it will be added to the end of the list of files by
+  changing the **_next_** parameter of the previous file.
 * **mkdir**
+
+  This creates a new directory in the current directory.
+  You can find this function in _create.c_.
+  Before creating a directory, the function check_existance()
+  will check if there already is a file/directory with the same name,
+  in which case the touch() function will print the "Directory already exists" message.
+  After the directory is created, it will be added to the end of the list of directories by
+  changing the **_next_** parameter of the previous directory.
 * **ls**
 * **rm**
 * **rmdir**
